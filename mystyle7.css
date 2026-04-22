@@ -1,0 +1,153 @@
+﻿
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('Images/istockphoto-1472922633-612x612.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.container {
+    width: 750px;
+    margin: 0 auto;
+    background-color: transparent; 
+    border: 2px solid #00FFFF; 
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 0 15px rgba(0,255,255,0.3);
+}
+
+.header {
+    text-align: center;
+    border-bottom: 2px solid #00FFFF;
+    margin-bottom: 20px;
+}
+
+    .header h1 {
+        color: #00FFFF;
+        margin: 0;
+        text-shadow: 0 0 5px #000000;
+    }
+
+    .header p {
+        color: #00FFFF;
+        font-style: italic;
+        text-shadow: 0 0 3px #000000;
+    }
+
+
+.section {
+    background-color: rgba(0, 0, 0, 0.7); 
+    border: 1px solid #00FFFF;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+    .section h3 {
+        margin-top: 0;
+        color: #00FFFF;
+    }
+
+.row {
+    margin: 12px 0;
+    clear: both;
+    overflow: hidden;
+}
+
+.label {
+    float: left;
+    width: 120px;
+    font-weight: bold;
+    padding-top: 5px;
+    color: #00FFFF;
+}
+
+.textbox {
+    float: left;
+    width: 250px;
+    padding: 6px;
+    border: 1px solid #00FFFF;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #00FFFF;
+}
+
+.radiolist {
+    margin-left: 0;
+    padding-left: 0;
+    color: #00FFFF;
+}
+
+    .radiolist label {
+        margin-left: 5px;
+        color: #00FFFF;
+    }
+
+.calendar {
+    margin: 10px 0;
+    background-color: white;
+    color: #00FFFF;
+    border: 1px solid #00FFFF;
+}
+
+
+.button, .button-clear {
+    padding: 10px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.button {
+    background-color: #00FFFF; 
+    color: #000000; 
+}
+
+.button-clear {
+    background-color: #00FFFF;
+    color: #000000;
+}
+
+    .button:hover, .button-clear:hover {
+        background-color: #000000; 
+        color: #FFFFFF; 
+        border: 1px solid #00FFFF;
+    }
+
+.button-row {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.validation-summary {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #FF4444;
+    border-radius: 5px;
+    color: cyan;
+}
+
+.confirmation {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #00FFFF;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.confirmation-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #00FFFF;
+}
